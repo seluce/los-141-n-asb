@@ -3,7 +3,7 @@ cd ..
 cd external/tremolo
 git fetch https://github.com/LineageOS/android_external_tremolo refs/changes/86/319986/1 && git cherry-pick FETCH_HEAD
 cd ../..
-cd external/bt
+cd system/bt
 git fetch https://github.com/LineageOS/android_system_bt refs/changes/20/320420/1 && git cherry-pick FETCH_HEAD
 cd ../..
 cd frameworks/base

@@ -34,7 +34,7 @@ cd $CURRENT_DIR
 bash n-asb-2022-02.sh
 
 cd $CURRENT_DIR
-bash n-asb-security-patch.sh
+bash add-latest-tzdb.sh
 
 # newest security patches are merged
 

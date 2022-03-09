@@ -39,6 +39,10 @@ bash n-asb-2022-03.sh
 cd $CURRENT_DIR
 bash n-asb-update-tzdb.sh
 
+cd build
+patch -p1 < ../los-141-n-asb/n-asb-set-security-patch-level.patch
+cd ..
+
 # newest security patches are merged
 
 sleep 1

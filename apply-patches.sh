@@ -7,7 +7,7 @@ sleep 1
 echo -e "\n start patching. Wait some minutes.. (depends on your internet connection)"
 sleep 2
 
-# merge security patches
+# merge latest security patches
 
 cd $CURRENT_DIR
 bash n-asb-2021-07.sh
@@ -36,8 +36,12 @@ bash n-asb-2022-02.sh
 cd $CURRENT_DIR
 bash n-asb-2022-03.sh
 
+# merge latest Time Zone Database
+
 cd $CURRENT_DIR
 bash n-asb-update-tzdb.sh
+
+# increase the security patch level 
 
 cd build
 patch -p1 < ../los-141-n-asb/n-asb-set-security-patch-level.patch

@@ -1,8 +1,5 @@
 #!/bin/bash
 cd ..
-cd build
-patch -p1 < ../los-141-n-asb/n-asb-set-security-patch-level.patch
-cd ..
 cd system/bt
 git fetch https://github.com/LineageOS/android_system_bt refs/changes/56/323456/1 && git cherry-pick FETCH_HEAD
 git fetch https://github.com/LineageOS/android_system_bt refs/changes/57/323457/1 && git cherry-pick FETCH_HEAD

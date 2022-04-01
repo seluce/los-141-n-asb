@@ -13,7 +13,7 @@ cd frameworks/av
 git fetch https://github.com/LineageOS/android_frameworks_av refs/changes/87/319987/1 && git cherry-pick FETCH_HEAD
 cd ../..
 cd packages/apps/Settings
-git fetch https://github.com/LineageOS/android_packages_apps_Settings refs/changes/91/319991/1 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_packages_apps_Settings refs/changes/91/319991/2 && git cherry-pick FETCH_HEAD
 cd ../../..
 cd packages/apps/KeyChain
 git fetch https://github.com/LineageOS/android_packages_apps_KeyChain refs/changes/90/319990/1 && git cherry-pick FETCH_HEAD

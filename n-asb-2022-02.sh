@@ -5,7 +5,7 @@ git fetch https://github.com/LineageOS/android_system_bt refs/changes/56/323456/
 git fetch https://github.com/LineageOS/android_system_bt refs/changes/57/323457/1 && git cherry-pick FETCH_HEAD
 cd ../..
 cd packages/apps/Settings
-git fetch https://github.com/LineageOS/android_packages_apps_Settings refs/changes/58/323458/1 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_packages_apps_Settings refs/changes/58/323458/2 && git cherry-pick FETCH_HEAD
 cd ../../..
 cd external/libexif
 git fetch https://github.com/LineageOS/android_external_libexif refs/changes/59/323459/1 && git cherry-pick FETCH_HEAD

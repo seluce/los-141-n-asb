@@ -16,8 +16,8 @@ cd packages/apps/Nfc
 git fetch https://github.com/LineageOS/android_packages_apps_Nfc refs/changes/15/315715/1 && git cherry-pick FETCH_HEAD
 cd ../../..
 cd packages/apps/Settings
-git fetch https://github.com/LineageOS/android_packages_apps_Settings refs/changes/16/315716/1 && git cherry-pick FETCH_HEAD
-git fetch https://github.com/LineageOS/android_packages_apps_Settings refs/changes/17/315717/1 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_packages_apps_Settings refs/changes/16/315716/2 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_packages_apps_Settings refs/changes/17/315717/2 && git cherry-pick FETCH_HEAD
 cd ../../..
 cd system/bt 
 git fetch https://github.com/LineageOS/android_system_bt refs/changes/19/315719/1 && git cherry-pick FETCH_HEAD

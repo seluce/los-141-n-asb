@@ -43,17 +43,13 @@ bash n-asb-update-tzdb.sh
 
 # increase the security patch level 
 
-cd build
+cd ../build
 patch -p1 < ../los-141-n-asb/n-asb-set-security-patch-level.patch
-cd ..
 
 # newest security patches are merged
 
 sleep 1
 echo -e "\n all patches are included now"
 sleep 2
-echo -e "\n security patch level are now 2022-02-05"
+echo -e "\n security patch level are now 2022-03-05"
 echo -e "\n script by seluce"
-
-# return to default directory 
-cd ..

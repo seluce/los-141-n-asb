@@ -4,10 +4,10 @@ cd external/libavc
 git fetch https://github.com/LineageOS/android_external_libavc refs/changes/11/315711/1 && git cherry-pick FETCH_HEAD
 cd ../..
 cd frameworks/base
-git fetch https://github.com/LineageOS/android_frameworks_base refs/changes/12/315712/2 && git cherry-pick FETCH_HEAD
-git fetch https://github.com/LineageOS/android_frameworks_base refs/changes/13/315713/2 && git cherry-pick FETCH_HEAD
-git fetch https://github.com/LineageOS/android_frameworks_base refs/changes/40/315740/1 && git cherry-pick FETCH_HEAD
-git fetch https://github.com/LineageOS/android_frameworks_base refs/changes/41/315741/1 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_frameworks_base refs/changes/12/315712/3 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_frameworks_base refs/changes/13/315713/3 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_frameworks_base refs/changes/40/315740/2 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/LineageOS/android_frameworks_base refs/changes/41/315741/2 && git cherry-pick FETCH_HEAD
 cd ../..
 cd frameworks/native
 git fetch https://github.com/LineageOS/android_frameworks_native refs/changes/14/315714/1 && git cherry-pick FETCH_HEAD

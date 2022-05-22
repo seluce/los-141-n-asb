@@ -39,6 +39,9 @@ bash n-asb-2022-03.sh
 cd $CURRENT_DIR
 bash n-asb-2022-04.sh
 
+cd $CURRENT_DIR
+bash n-asb-2022-05.sh
+
 # merge latest Time Zone Database
 
 cd $CURRENT_DIR
@@ -54,5 +57,5 @@ patch -p1 < ../los-141-n-asb/n-asb-set-security-patch-level.patch
 sleep 1
 echo -e "\n all patches are included now"
 sleep 2
-echo -e "\n security patch level are now 2022-03-05"
+echo -e "\n security patch level are now 2022-05-05"
 echo -e "\n script by seluce"
